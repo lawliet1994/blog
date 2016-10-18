@@ -16,3 +16,8 @@ function show(num) {
         abi[i].className="";
     }
 }
+
+function mpshow() {
+    var mpshow2 = document.getElementById("footer");
+    mpshow2.style.display="block";
+}
