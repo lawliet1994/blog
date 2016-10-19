@@ -18,6 +18,14 @@ function show(num) {
 }
 
 function mpshow() {
-    var mpshow2 = document.getElementById("footer");
-    mpshow2.style.display="block";
+    var mpshow1 = document.getElementById("footer");
+    mpshow1.style.display="block";
+    var mpshow2 = document.getElementById("mpp");
+    mpshow2.style.display="none";
+}
+function hide() {
+    var hide1 = document.getElementById("footer");
+    hide1.style.display="none";
+    var hide2 = document.getElementById("mpp");
+    hide2.style.display="block";
 }

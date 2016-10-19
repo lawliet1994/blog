@@ -43,7 +43,7 @@ body {
     padding-bottom:13px;
 }
 #footer {
-    background:yellow;
+    background:transparent;
     color:#000;
     height:200px;
     width:350px;
@@ -51,6 +51,12 @@ body {
     position:fixed;
     bottom:0px;
     left:0px;
+}
+#backup {
+    height:200px;
+    width:30px;
+    background:transparent;
+    float:right;
 }
 #banner {
     background:indianred;
@@ -96,7 +102,7 @@ body {
     left:0px;
     bottom:0px;
     width:30px;
-    height:80px;
+    height:200px;
     background:white;
     box-shadow:0 2px 2px 0 rgba(0, 0, 0, .05),
                0 1px 4px 0 rgba(0, 0, 0, .08), 
